@@ -319,13 +319,38 @@
     background: #36A0FF;
     color: #FFFFFF;
     font-size: 4em;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
     display: flex;
-    justify-content: space-between;
-    
 }
 
-
+.navbar-title {
+    color: white;
+}
+.row .navbar .navbar-cart {
+    font-size: 100px;
+    margin-left: auto;
+    align-self: flex-end;
+}
+.navbar-icons {
+    font-size: 20px;
+}
+.navbar-icons>div {
+    padding: 7px;
+}
+.navbar-icons>div:hover { 
+    -moz-box-shadow: inset 0 0 1px #000000;
+    -webkit-box-shadow: inset 0 0 1px #000000;
+    box-shadow: inset 0 0 1px #000000;
+}
+.cart-count {
+    color: #ffb049;
+    position: relative;
+}
+.fa-shopping-cart {
+    font-size: 25px;
+}
 nav.navbar-inverse{
     -webkit-box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
     box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
